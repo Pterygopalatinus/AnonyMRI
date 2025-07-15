@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Build artifacts
+dist/
+build/
+*.spec
+*.egg-info/
+
+# Output and logs
+output/
+*.log
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Pip
+pip-log.txt
+
+# Test data and old tests
+test/
+tests/
+
+# Misc
+get-pip.py 
