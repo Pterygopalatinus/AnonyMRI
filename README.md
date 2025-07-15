@@ -1,37 +1,37 @@
 # AnonyMRI
 
-Анонимайзер DICOM-файлов МРТ с графическим интерфейсом для медицинских задач.
+Anonymizer for MRI DICOM files with a graphical interface, designed for real-world medical tasks.
 
-## Возможности
-- Поиск и группировка DICOM-файлов по пациенту/исследованию
-- Анонимизация персональных данных в DICOM
-- Удобный GUI для выбора и запуска обработки
-- Логирование процесса анонимизации
+## Features
+- Search and group DICOM files by patient/study
+- Anonymize personal data in DICOM files
+- User-friendly GUI for selecting and processing data
+- Logging of the anonymization process
 
-## Установка
-1. Клонируйте репозиторий:
+## Installation
+1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/AnonyMRI.git
    cd AnonyMRI
    ```
-2. Создайте виртуальное окружение и установите зависимости:
+2. Create a virtual environment and install dependencies:
    ```bash
    python -m venv .venv
    .venv/Scripts/activate  # Windows
    pip install -r requirements.txt
    ```
 
-## Запуск
+## Usage
 ```bash
 python gui.py
 ```
 
-## Требования
+## Requirements
 - Python 3.11+
-- См. requirements.txt
+- See requirements.txt
 
-## Важно
-**Не используйте программу для обработки реальных медицинских данных без согласования с ответственными специалистами. Разработчик не несёт ответственности за возможные последствия использования.**
+## Important
+**Do not use this program for processing real medical data without approval from responsible specialists. The developer is not responsible for any possible consequences of use.**
 
-## Лицензия
+## License
 MIT 
